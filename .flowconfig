@@ -1,0 +1,13 @@
+[ignore]
+<PROJECT_ROOT>/_book/.*
+<PROJECT_ROOT>/examples/.*
+<PROJECT_ROOT>/node_modules/.*
+
+[include]
+
+[libs]
+
+[options]
+
+[version]
+0.36.0
