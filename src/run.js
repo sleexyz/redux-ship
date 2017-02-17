@@ -52,7 +52,7 @@ export function run<Effect, Commit, State, A>(
   runEffect: (effect: Effect) => any | Promise<any>,
   store: {
     dispatch: (commit: Commit) => void | Promise<void>,
-    getState: () => State
+    +getState: () => State
   },
   ship: Ship<Effect, Commit, State, A>
 ): Promise<A> {
